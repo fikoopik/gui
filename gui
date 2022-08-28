@@ -1,0 +1,1378 @@
+game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Loading!", Duration = 9})
+if not game:IsLoaded() then
+game.Loaded:Wait()
+end
+wait(3)
+local VirtualUser=game:service'VirtualUser'
+game:service('Players').LocalPlayer.Idled:connect(function()
+VirtualUser:CaptureController()
+VirtualUser:ClickButton2(Vector2.new())
+end)
+game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Owner is fikop#0001!", Duration = 9})
+game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Anti Afk is working", Duration = 9})
+local UILibrary = loadstring(game:HttpGet("https://pastebin.com/raw/V1ca2q9s"))()
+
+local MainUI = UILibrary.Load("Poisonous")
+local FirstPage = MainUI.AddPage("Teleports")
+
+local FirstLabel = FirstPage.AddLabel("Teleports")
+local FirstButton = FirstPage.AddButton("Jeff tacos", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Teleported!", Duration = 9})
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(595.852966, 51.0556984, -447.66629, -0.705541253, -4.2598046e-08, -0.708668828, -8.41497627e-09, 1, -5.17321084e-08, 0.708668828, -3.05357055e-08, -0.705541253)
+end)
+local FirstButton = FirstPage.AddButton("Uphill guns", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Teleported!", Duration = 9})
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(478.307678, 48.0704956, -621.664673, -0.295156747, -2.07658291e-09, 0.955448866, -3.46148603e-08, 1, -8.51979287e-09, -0.955448866, -3.55874015e-08, -0.295156747)
+end)
+local FirstButton = FirstPage.AddButton("Downhill guns", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Teleported!", Duration = 9})
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-576.493408, 8.31478119, -736.684631, -0.637273729, 5.33532791e-08, -0.770637512, 5.07418818e-08, 1, 2.7271982e-08, 0.770637512, -2.17238796e-08, -0.637273729)
+end)
+local FirstButton = FirstPage.AddButton("Refueling", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Teleported!", Duration = 9})
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(590.604004, 49.0000458, -259.781433, -0.189201355, 2.33060486e-08, 0.981938303, -5.95105725e-08, 1, -3.52013245e-08, -0.981938303, -6.50958469e-08, -0.189201355)
+end)
+local FirstButton = FirstPage.AddButton("Safe place", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Teleported!", Duration = 9})
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(168.979401, -40.2391319, 233.752838, -0.0258783363, 6.07537416e-08, -0.999665082, 2.41380036e-08, 1, 6.01492331e-08, 0.999665082, -2.25733565e-08, -0.0258783363)
+end)
+local FirstButton = FirstPage.AddButton("Bank", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Teleported!", Duration = 9})
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-398.309235, 21.7499943, -283.64917, -0.0328998156, 6.50362466e-08, -0.999458671, 5.03018533e-08, 1, 6.34156549e-08, 0.999458671, -4.81882623e-08, -0.0328998156)
+end)
+local FirstButton = FirstPage.AddButton("Bank vault", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Teleported!", Duration = 9})
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-508.896515, 23.1717911, -284.972809, 0.0330571011, 3.89014732e-09, -0.999453485, -8.03733684e-08, 1, 1.2339112e-09, 0.999453485, 8.02886504e-08, 0.0330571011)
+end)
+local FirstButton = FirstPage.AddButton("Club", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Teleported!", Duration = 9})
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-265.430206, -6.20834684, -354.665649, 0.999381959, -1.41169059e-08, 0.0351519734, 1.20614851e-08, 1, 5.86844671e-08, -0.0351519734, -5.8224213e-08, 0.999381959)
+end)
+local FirstButton = FirstPage.AddButton("Secret room", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Teleported!", Duration = 9})
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-507.865601, 48.6023712, -215.804749, -0.381835848, -1.06307233e-07, 0.924230158, -2.91451201e-08, 1, 1.02981474e-07, -0.924230158, 1.23852182e-08, -0.381835848)
+end)
+local FirstButton = FirstPage.AddButton("Secret room #2", function()
+    game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Teleported!", Duration = 9})
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-41.4486008, 49.8144341, -938.72406, -0.098423861, -9.86953737e-08, -0.995144606, 1.26706636e-08, 1, -1.004301e-07, 0.995144606, -2.2493861e-08, -0.098423861)
+end)
+local FirstButton = FirstPage.AddButton("Uphill food", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Teleported!", Duration = 9})
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(300.794678, 49.2826538, -619.079346, 0.802772582, 1.90283291e-08, -0.596285343, -8.01282738e-08, 1, -7.59643868e-08, 0.596285343, 1.08761441e-07, 0.802772582)
+end)
+local FirstButton = FirstPage.AddButton("Bank food", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Teleported!", Duration = 9})
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-330.674316, 23.682642, -296.930115, 0.00466329791, 1.08581268e-07, -0.999989152, 1.4827668e-08, 1, 1.08651598e-07, 0.999989152, -1.53341819e-08, 0.00466329791)
+end)
+local FirstButton = FirstPage.AddButton("Hood kicks", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Teleported!", Duration = 9})
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-228.865524, 21.8457985, -410.210724, 0.0130003719, -1.98200585e-08, 0.999915481, -2.88189761e-09, 1, 1.98592041e-08, -0.999915481, -3.13983106e-09, 0.0130003719)
+end)
+local FirstButton = FirstPage.AddButton("Hood fitness", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Teleported!", Duration = 9})
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-77.1112289, 22.700285, -631.141663, -0.999982893, -2.06585753e-08, -0.00584572367, -2.06491748e-08, 1, -1.66834224e-09, 0.00584572367, -1.54760438e-09, -0.999982893)
+end)
+local FirstButton = FirstPage.AddButton("Fire departament", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Teleported!", Duration = 9})
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-164.664444, 22.8094616, -116.837463, 0.984405398, -7.18752631e-08, 0.17591472, 6.16485281e-08, 1, 6.35996784e-08, -0.17591472, -5.1762985e-08, 0.984405398)
+end)
+local FirstButton = FirstPage.AddButton("Furniture", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Teleported!", Duration = 9})
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-488.973114, 21.8498535, -108.008987, 0.952992857, 1.56674158e-08, 0.302992791, -1.57833142e-08, 1, -2.06615436e-09, -0.302992791, -2.81320012e-09, 0.952992857)
+end)
+local FirstButton = FirstPage.AddButton("Jewerly", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Teleported!", Duration = 9})
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-630.770874, 23.2457352, -268.017151, -0.993203938, 6.43550058e-09, 0.116387218, -2.87665974e-10, 1, -5.77487107e-08, -0.116387218, -5.73897267e-08, -0.993203938)
+end)
+local FirstButton = FirstPage.AddButton("Police", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Teleported!", Duration = 9})
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-576.493408, 8.31478119, -736.684631, -0.637273729, 5.33532791e-08, -0.770637512, 5.07418818e-08, 1, 2.7271982e-08, 0.770637512, -2.17238796e-08, -0.637273729)
+end)
+local FirstButton = FirstPage.AddButton("Admin base", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Teleported!", Duration = 9})
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-872.294678, -38.3992004, -585.691833, 0.883107901, -4.20937774e-08, 0.469169915, -5.29430499e-09, 1, 9.96850389e-08, -0.469169915, -9.0516572e-08, 0.883107901)
+end)
+local FirstButton = FirstPage.AddButton("Save Position", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Saved!", Duration = 9})
+    _G.savedhumanoidpos = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+end)
+local FirstButton = FirstPage.AddButton("Load Position", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Teleported!", Duration = 9})
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(_G.savedhumanoidpos)
+end)
+local FirstPage = MainUI.AddPage("misc")
+local FirstButton = FirstPage.AddButton("FLY [X]", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Fly ON", Duration = 9})
+    				repeat wait() 
+				until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Head") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid") 
+				local mouse = game.Players.LocalPlayer:GetMouse() 
+				repeat wait() until mouse
+				local plr = game.Players.LocalPlayer 
+				local torso = plr.Character.Head 
+				local flying = false
+				local deb = true 
+				local ctrl = {f = 0, b = 0, l = 0, r = 0} 
+				local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+				local maxspeed = 7000
+				local speed = 7000 
+
+				function Fly() 
+					local bg = Instance.new("BodyGyro", torso) 
+					bg.P = 9e4 
+					bg.maxTorque = Vector3.new(9e9, 9e9, 9e9) 
+					bg.cframe = torso.CFrame 
+					local bv = Instance.new("BodyVelocity", torso) 
+					bv.velocity = Vector3.new(0,0.1,0) 
+					bv.maxForce = Vector3.new(9e9, 9e9, 9e9) 
+					repeat wait() 
+						plr.Character.Humanoid.PlatformStand = true 
+						if ctrl.l + ctrl.r ~= 100000 or ctrl.f + ctrl.b ~= 10000 then 
+							speed = speed+.0+(speed/maxspeed) 
+							if speed > maxspeed then 
+								speed = maxspeed 
+							end 
+						elseif not (ctrl.l + ctrl.r ~= 5 or ctrl.f + ctrl.b ~= 5) and speed ~= 5 then 
+							speed = speed-5
+							if speed > 5 then 
+								speed = -2 
+							end 
+						end 
+						if (ctrl.l + ctrl.r) ~= 5 or (ctrl.f + ctrl.b) ~= 5 then 
+							bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+							lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r} 
+						elseif (ctrl.l + ctrl.r) == 5 and (ctrl.f + ctrl.b) == 5 and speed ~= 5 then 
+							bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+						else 
+							bv.velocity = Vector3.new(0,0.1,0) 
+						end 
+						bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0) 
+					until not flying 
+					ctrl = {f = 0, b = 0, l = 0, r = 0} 
+					lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+					speed = 5 
+					bg:Destroy() 
+					bv:Destroy() 
+					plr.Character.Humanoid.PlatformStand = false 
+				end 
+				mouse.KeyDown:connect(function(key) 
+					if key:lower() == "x" then 
+						if flying then flying = false 
+						else 
+							flying = true 
+							Fly() 
+						end 
+					elseif key:lower() == "w" then 
+						ctrl.f = 45
+					elseif key:lower() == "s" then 
+						ctrl.b = -45 
+					elseif key:lower() == "a" then 
+						ctrl.l = -45 
+					elseif key:lower() == "d" then 
+						ctrl.r = 45
+					end 
+				end) 
+				mouse.KeyUp:connect(function(key) 
+					if key:lower() == "w" then 
+						ctrl.f = 0
+					elseif key:lower() == "s" then 
+						ctrl.b = 0
+					elseif key:lower() == "a" then 
+						ctrl.l = 0
+					elseif key:lower() == "d" then 
+						ctrl.r = 0
+					end 
+				end)
+				Fly()
+end)
+local FirstButton = FirstPage.AddButton("Speed and JumpPower [Z]", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Started flying", Duration = 9})
+superhuman = false
+				plr = game.Players.LocalPlayer
+				mouse = plr:GetMouse()
+				mouse.KeyDown:connect(function(key)				
+					if key == "z" and superhuman == false then
+						superhuman = true
+						game.Players.LocalPlayer.Character.Humanoid.Name = "Humz"
+						game.Players.LocalPlayer.Character.Humz.WalkSpeed = 200
+						game.Players.LocalPlayer.Character.Humz.JumpPower = 250
+					elseif key == "z" and superhuman == true then
+						superhuman = false
+						game.Players.LocalPlayer.Character.Humz.WalkSpeed = 16
+						game.Players.LocalPlayer.Character.Humz.JumpPower = 50
+						game.Players.LocalPlayer.Character.Humz.Name = "Humanoid"
+					end
+
+				end)   
+end)
+local FirstButton = FirstPage.AddButton("Force reset", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Reseted!", Duration = 9})
+	for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+    if v:IsA('MeshPart') or  v:IsA('Accessory') then
+        v:Destroy()
+    end
+end
+end)
+local FirstButton = FirstPage.AddButton("Anti bag", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Anti bag ON!", Duration = 9})
+    local LocalPlayer = game:GetService("Players").LocalPlayer
+				local char = LocalPlayer.Character
+				char.ChildAdded:Connect(function(sock)
+					if sock:IsA("MeshPart") then do
+							wait(0)
+							sock:Destroy()
+						end
+					end
+				end)
+end)
+local FirstButton = FirstPage.AddButton("Anti Stomp", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Anti Stomp on!", Duration = 9})
+	game.RunService.RenderStepped:Connect(function()
+pcall(function()
+if game.Players.LocalPlayer.Character.BodyEffects['K.O'].Value == true then
+
+for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+    if v:IsA('MeshPart') or  v:IsA('Accessory') then
+        v:Destroy()
+    end
+end
+end
+end)
+end)
+end);
+local FirstButton = FirstPage.AddButton("Anti Grab", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Anti Grab on!", Duration = 9})
+	while wait() do
+    game.Players.LocalPlayer.Character.GRABBING_CONSTRAINT:Destroy()
+    end
+end);
+local FirstButton = FirstPage.AddButton("Anti Flash", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Anti Flash On!", Duration = 9})
+	Player.PlayerGui:FindFirstChild("MainScreenGui"):FindFirstChild("whiteScreen"):Destroy();
+end)
+local FirstButton = FirstPage.AddButton("Anti slow", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Anti slow on!", Duration = 9})
+	repeat wait() until game.Players.LocalPlayer.Character
+				repeat wait() until game.Players.LocalPlayer.Character.BodyEffects
+				repeat wait() until game.Players.LocalPlayer.Character.BodyEffects.Movement
+				wait()
+				game.Players.LocalPlayer.Character.BodyEffects.Movement.ChildAdded:Connect(function(child)
+					wait()
+					child:Destroy()
+				end)
+
+				game.Players.LocalPlayer.Character.BodyEffects.Movement.ChildAdded:Connect(function(child)
+					wait()
+					child:Destroy()
+				end)
+end)
+local FirstButton = FirstPage.AddButton("Bike Fly", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Bike fly ON! [Q + E]", Duration = 9})
+	    	local speed = 20
+				local old
+				local Plr = game.Players.LocalPlayer
+				local wheels = {}
+				local control = {q=false,e=false,w=false,a=false,s=false,d=false}
+				local Mouse = Plr:GetMouse()
+
+				Mouse.KeyDown:connect(function(KEY)
+					local key = KEY:lower()
+					if control[key] ~= nil then
+						control[key]=true
+					end
+				end)
+
+				Mouse.KeyUp:connect(function(KEY)
+					local key = KEY:lower()
+					if control[key] ~= nil then
+						control[key]=false
+					end
+				end)
+
+				while game.RunService.Stepped:wait() do
+					local seat = (Plr.Character or Plr.CharacterAdded:wait()):WaitForChild("Humanoid").SeatPart
+					if Plr.PlayerGui:FindFirstChild("MainScreenGui") and Plr.PlayerGui.MainScreenGui:FindFirstChild("Bar") and Plr.PlayerGui.MainScreenGui.Bar:FindFirstChild("Speed") then
+						Plr.PlayerGui.MainScreenGui.Bar.Speed.bar.Size = UDim2.new(speed / 100 * 0.95, 0, 0.83, 0)
+					else
+						local c = Plr.PlayerGui.MainScreenGui.Bar.HP
+						local g = c:Clone()
+						g.Name = "Speed"
+						g.Position = UDim2.new(0.5, 0, 1, -120)
+						g.bar.BackgroundColor3 = Color3.fromRGB(255, 155, 0)
+						g.Picture.Image.Image = "rbxassetid://181035717"
+						g.TextLabel.Text = "Speed"
+						g.Parent = c.Parent
+					end
+					if seat ~= nil and seat:IsDescendantOf(game.Workspace.Vehicles) then
+						if seat ~= old then
+							if old then
+								old.Vel:Destroy()
+								old.Gyro:Destroy()
+							end
+							old = seat
+							for i = 1, 2 do
+								if wheels[i] then
+									wheels[i][2].Parent = wheels[i][1]
+								end
+								local wheel = seat.Parent.Wheel
+								wheels[i] = {seat.Parent, wheel}
+								wheel:remove()
+							end
+							local gyro = Instance.new("BodyGyro", seat)
+							gyro.Name = "Gyro"
+							local pos = Instance.new("BodyVelocity", seat)
+							pos.Name = "Vel"
+							gyro.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+							pos.MaxForce = Vector3.new(9e9, 9e9, 9e9)
+						else 
+							seat.Gyro.cframe = workspace.CurrentCamera.CoordinateFrame
+							local vel = CFrame.new(0, 0, 0)
+							if control.w then
+								vel = vel * CFrame.new(0, 0, -speed)
+							end
+							if control.s then
+								vel = vel * CFrame.new(0, 0, speed)
+							end
+							if control.a then
+								vel = vel * CFrame.new(-speed, 0, 0)
+							end
+							if control.d then
+								vel = vel * CFrame.new(speed, 0, 0)
+							end
+							seat.Vel.Velocity = (seat.CFrame*vel).p - seat.CFrame.p
+						end
+					end
+					if control.e and speed<200 then
+						speed = speed + 1
+					end
+					if control.q and speed > 0 then
+						speed = speed - 1
+					end
+				end
+end)
+local FirstButton = FirstPage.AddButton("Free fists [Q]", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Free fists on!", Duration = 9})
+	local localPlayer       = game:GetService("Players").LocalPlayer;
+				local localCharacter    = localPlayer.Character
+				local Mouse             = localPlayer:GetMouse();
+				local FistControl       = false
+				local LeftFist          = localCharacter.LeftHand;
+				local RightFist         = localCharacter.RightHand;
+
+				local uis = game:GetService("UserInputService");
+
+				local loopFunction = function()
+					LeftFist.CFrame  = CFrame.new(Mouse.Hit.p);
+					RightFist.CFrame = CFrame.new(Mouse.Hit.p);
+				end;
+
+				local Loop
+
+				local Start = function()
+					Loop = game:GetService("RunService").Heartbeat:Connect(loopFunction);
+				end;
+
+				local Pause = function()
+					Loop:Disconnect()
+				end;
+
+				uis.InputBegan:connect(function(Key)
+					if (Key.KeyCode == Enum.KeyCode.Q) then
+						if (FistControl == false) then
+							FistControl = true;
+							Start()
+							pcall(function()
+								localCharacter.RightHand.RightWrist:Remove();
+								localCharacter.LeftHand.LeftWrist:Remove();
+							end)
+						elseif (FistControl == true) then
+							FistControl = false
+							Pause()
+							local rightwrist  = Instance.new("Motor6D");
+							rightwrist.Name   = "RightWrist";
+							rightwrist.Parent = localCharacter.RightHand;
+							rightwrist.C0     = CFrame.new(1.18422506e-07, -0.5009287, -6.81715525e-18, 1, 0, 0, 0, 1, 0, 0, 0, 1);
+							rightwrist.C1     = CFrame.new(3.55267503e-07, 0.125045404, 5.92112528e-08, 1, 0, 0, 0, 1, 0, 0, 0, 1);
+							rightwrist.Part0  = localCharacter.RightLowerArm;
+							rightwrist.Part1  = localCharacter.RightHand;
+
+							local leftwrist   = Instance.new("Motor6D");
+							leftwrist.Name    = "LeftWrist";
+							leftwrist.Parent  = localCharacter.LeftHand;
+							leftwrist.C0      = CFrame.new(0.000475466368, -0.5009287, 7.59417072e-20, 1, 0, 0, 0, 1, 0, 0, 0, 1);
+							leftwrist.C1      = CFrame.new(0.000475821638, 0.125045404, 5.92112528e-08, 1, 0, 0, 0, 1, 0, 0, 0, 1);
+							leftwrist.Part0   = localCharacter.LeftLowerArm;
+							leftwrist.Part1   = localCharacter.LeftHand;
+						end
+					end
+				end)
+end)
+local FirstButton = FirstPage.AddButton("Pick up tools", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Pick upped!", Duration = 9})
+	char = game:GetService('Players').LocalPlayer.Character
+				-------------------------------------
+				function GetKnife()
+					wait(.1)
+					char.HumanoidRootPart.CFrame = CFrame.new(-680.2, 19.75, -254.97)
+					wait()
+					char.HumanoidRootPart.CFrame = CFrame.new(-115.495, 19.756, -453.45)
+					wait()
+					char.HumanoidRootPart.CFrame = CFrame.new(-418.208, 19.25, -748.694)
+					wait()
+					char.HumanoidRootPart.CFrame = CFrame.new(-418.208, 19.25, -748.694)
+					wait()
+					char.HumanoidRootPart.CFrame = CFrame.new(33, 19.75, -184.6)
+					wait()
+					char.HumanoidRootPart.CFrame = CFrame.new(243.495, 62, -450.5)
+					wait()
+					char.HumanoidRootPart.CFrame = CFrame.new(-103.53, 19.75, -220.21)
+					wait()
+					char.HumanoidRootPart.CFrame = CFrame.new(-581.775, 19.7549, -485.23)
+					wait()
+					char.HumanoidRootPart.CFrame = CFrame.new(-399.655, 19.7552, -461.55)
+					wait()
+				end
+
+				wait()
+				local X = char.HumanoidRootPart.CFrame.X
+				local Y = char.HumanoidRootPart.CFrame.Y
+				local Z = char.HumanoidRootPart.CFrame.Z
+				GetKnife()
+				repeat GetKnife() until plr.Backpack:FindFirstChild('[Knife]') and plr.Backpack:FindFirstChild('[LockPicker]')
+				char.HumanoidRootPart.CFrame = CFrame.new(X,Y+5,Z)
+end)
+local FirstButton = FirstPage.AddButton("Fist reach", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Fist reach on!", Duration = 9})
+    				local LP = game.Players.LocalPlayer 
+
+				for i,v in ipairs(LP.Character:GetDescendants()) do 
+
+					if v:IsA("MeshPart") then v.Massless = true 
+
+						v.CanCollide = false 
+
+
+						v.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0, 0, 0) 
+
+
+					end 
+
+				end 
+
+
+				for i,v in ipairs(game.workspace:GetDescendants()) do 
+
+					if v:IsA("Seat") then 
+
+						v.Disabled = true 
+
+					end 
+
+				end 
+
+				x = 45
+
+				y = 45 
+
+				z = 45
+
+
+
+				local penis = Vector3.new(x,y,z) 
+
+
+				LP.Character.RightHand.Size = penis 
+
+
+				local selectionBox = Instance.new("SelectionBox",LP.Character.RightHand) 
+
+				selectionBox.Adornee = LP.Character.RightHand 
+				selectionBox = Enum.Material.Neon
+				selectionBox.Color3 = Color3.new(1, 1, 1)  
+
+				LP.Character.LeftHand.Size = penis 
+
+				LP.Character.BodyEffects.SpecialParts.LeftHand.Size = penis 
+
+
+
+				local selectionBox = Instance.new("SelectionBox",LP.Character.LeftHand) 
+
+				selectionBox.Adornee = LP.Character.LeftHand 
+				selectionBox = Enum.Material.Neon
+				selectionBox.Color3 = Color3.new(1, 1, 1) 
+end)
+local FirstButton = FirstPage.AddButton("Melee reach", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "melee reach on!", Duration = 9})
+	 while true do
+					wait()
+					local success, err = pcall(function()
+						if game.Players.LocalPlayer.Character.BodyEffects.Attacking.Value == true then
+							for i,v in pairs(game:GetService('Players'):GetChildren()) do
+								if (v.Character.HumanoidRootPart.Position - game.Players.LocalPlayer.Character.LeftHand.Position).Magnitude <= 50 then
+									if game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool") then
+										if game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool"):FindFirstChild('Handle') then
+											firetouchinterest(game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Handle, v.Character.UpperTorso, 0)
+										else
+											firetouchinterest(game.Players.LocalPlayer.Character['RightHand'], v.Character.UpperTorso, 0)
+											firetouchinterest(game.Players.LocalPlayer.Character['LeftHand'], v.Character.UpperTorso, 0)
+											firetouchinterest(game.Players.LocalPlayer.Character['RightFoot'], v.Character.UpperTorso, 0)
+											firetouchinterest(game.Players.LocalPlayer.Character['LeftFoot'], v.Character.UpperTorso, 0)
+											firetouchinterest(game.Players.LocalPlayer.Character['RightLowerLeg'], v.Character.UpperTorso, 0)
+											firetouchinterest(game.Players.LocalPlayer.Character['LeftLowerLeg'], v.Character.UpperTorso, 0)
+										end
+									end
+								end
+							end
+						end
+					end)
+				end
+end)
+local FirstButton = FirstPage.AddButton("AnimationPack [Free]", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Free animationPack on!", Duration = 9})
+	for _, v in next, game:GetService("CoreGui"):GetChildren() do
+					if (v.Name:match("FreeAnimationPack")) then
+						v:Destroy();
+					end;
+				end;
+
+				local FreeAnimationPack = Instance.new("ScreenGui")
+				local AnimationPack = Instance.new("TextButton")
+				local Animations = Instance.new("ScrollingFrame")
+				local UIListLayout = Instance.new("UIListLayout")
+				local Lean = Instance.new("TextButton")
+				local Lay = Instance.new("TextButton")
+				local Dance1 = Instance.new("TextButton")
+				local Dance2 = Instance.new("TextButton")
+				local Greet = Instance.new("TextButton")
+				local ChestPump = Instance.new("TextButton")
+				local Praying = Instance.new("TextButton")
+				local Stop = Instance.new("TextButton")
+				local UniversalAnimation = Instance.new("Animation");
+
+				function stopTracks()
+					for _, v in next, game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):GetPlayingAnimationTracks() do
+						if (v.Animation.AnimationId:match("rbxassetid")) then
+							v:Stop();
+						end;
+					end;
+				end;
+
+				function loadAnimation(id)
+					if UniversalAnimation.AnimationId == id then
+						stopTracks();
+						UniversalAnimation.AnimationId = "1";
+					else
+						UniversalAnimation.AnimationId = id;
+						local animationTrack = game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):LoadAnimation(UniversalAnimation);
+						animationTrack:Play();
+					end;
+				end;
+
+				FreeAnimationPack.Name = "FreeAnimationPack"
+				FreeAnimationPack.Parent = game.CoreGui;
+				FreeAnimationPack.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+				AnimationPack.Name = "AnimationPack"
+				AnimationPack.Parent = FreeAnimationPack
+				AnimationPack.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				AnimationPack.BorderSizePixel = 0
+				AnimationPack.Position = UDim2.new(0, 0, 0.388007045, 0)
+				AnimationPack.Size = UDim2.new(0, 100, 0, 20)
+				AnimationPack.Font = Enum.Font.SourceSansBold
+				AnimationPack.Text = "Animations"
+				AnimationPack.TextColor3 = Color3.fromRGB(0, 0, 0)
+				AnimationPack.TextSize = 18.000
+				AnimationPack.MouseButton1Click:Connect(function()
+					if (Animations.Visible == false) then
+						Animations.Visible = true;
+					end;
+				end);
+
+				Animations.Name = "Animations"
+				Animations.Parent = AnimationPack
+				Animations.Active = true
+				Animations.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
+				Animations.Position = UDim2.new(-0.104712225, 0, -1.54173493, 0)
+				Animations.Size = UDim2.new(0, 120, 0, 195)
+				Animations.Visible = false
+				Animations.CanvasPosition = Vector2.new(0, 60.0000305)
+				Animations.CanvasSize = UDim2.new(0, 0, 1, 235)
+
+				UIListLayout.Parent = Animations
+				UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+				UIListLayout.Padding = UDim.new(0, 2)
+
+				Lean.Name = "Lean"
+				Lean.Parent = Animations
+				Lean.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				Lean.Size = UDim2.new(1, 0, 0, 30)
+				Lean.Font = Enum.Font.SourceSansBold
+				Lean.Text = "Lean"
+				Lean.TextColor3 = Color3.fromRGB(0, 0, 0)
+				Lean.TextSize = 14.000
+				Lean.MouseButton1Click:Connect(function()
+					stopTracks();
+					loadAnimation("rbxassetid://3152375249");
+				end);
+
+				Lay.Name = "Lay"
+				Lay.Parent = Animations
+				Lay.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				Lay.Size = UDim2.new(1, 0, 0, 30)
+				Lay.Font = Enum.Font.SourceSansBold
+				Lay.Text = "Lay"
+				Lay.TextColor3 = Color3.fromRGB(0, 0, 0)
+				Lay.TextSize = 14.000
+				Lay.MouseButton1Click:Connect(function()
+					stopTracks();
+					loadAnimation("rbxassetid://3152378852");
+				end);
+
+				Dance1.Name = "Dance1"
+				Dance1.Parent = Animations
+				Dance1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				Dance1.Size = UDim2.new(1, 0, 0, 30)
+				Dance1.Font = Enum.Font.SourceSansBold
+				Dance1.Text = "Dance1"
+				Dance1.TextColor3 = Color3.fromRGB(0, 0, 0)
+				Dance1.TextSize = 14.000
+				Dance1.MouseButton1Click:Connect(function()
+
+					stopTracks();
+					loadAnimation("rbxassetid://3189773368");
+				end);
+
+				Dance2.Name = "Dance2"
+				Dance2.Parent = Animations
+				Dance2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				Dance2.Size = UDim2.new(1, 0, 0, 30)
+				Dance2.Font = Enum.Font.SourceSansBold
+				Dance2.Text = "Dance2"
+				Dance2.TextColor3 = Color3.fromRGB(0, 0, 0)
+				Dance2.TextSize = 14.000
+				Dance2.MouseButton1Click:Connect(function()
+					stopTracks();
+					loadAnimation("rbxassetid://3189776546");
+				end);
+
+				Greet.Name = "Greet"
+				Greet.Parent = Animations
+				Greet.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				Greet.Size = UDim2.new(1, 0, 0, 30)
+				Greet.Font = Enum.Font.SourceSansBold
+				Greet.Text = "Greet"
+				Greet.TextColor3 = Color3.fromRGB(0, 0, 0)
+				Greet.TextSize = 14.000
+				Greet.MouseButton1Click:Connect(function()
+					stopTracks();
+					loadAnimation("rbxassetid://3189777795");
+				end);
+
+				ChestPump.Name = "ChestPump"
+				ChestPump.Parent = Animations
+				ChestPump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				ChestPump.Size = UDim2.new(1, 0, 0, 30)
+				ChestPump.Font = Enum.Font.SourceSansBold
+				ChestPump.Text = "Chest Pump"
+				ChestPump.TextColor3 = Color3.fromRGB(0, 0, 0)
+				ChestPump.TextSize = 14.000
+				ChestPump.MouseButton1Click:Connect(function()
+					stopTracks();
+					loadAnimation("rbxassetid://3189779152");
+				end);
+
+				Praying.Name = "Praying"
+				Praying.Parent = Animations
+				Praying.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				Praying.Size = UDim2.new(1, 0, 0, 30)
+				Praying.Font = Enum.Font.SourceSansBold
+				Praying.Text = "Praying"
+				Praying.TextColor3 = Color3.fromRGB(0, 0, 0)
+				Praying.TextSize = 14.000
+				Praying.MouseButton1Click:Connect(function()
+					stopTracks();
+					loadAnimation("rbxassetid://3487719500");
+				end);
+
+				Stop.Name = "Stop"
+				Stop.Parent = Animations
+				Stop.BackgroundColor3 = Color3.fromRGB(255, 112, 112)
+				Stop.Size = UDim2.new(1, 0, 0, 30)
+				Stop.Font = Enum.Font.SourceSansBold
+				Stop.Text = "Stop Animation"
+				Stop.TextColor3 = Color3.fromRGB(0, 0, 0)
+				Stop.TextSize = 14.000
+				Stop.MouseButton1Click:Connect(function()
+					stopTracks();
+				end);
+				--scripts
+				local plr = game.Players.LocalPlayer
+
+				plr:GetMouse().KeyDown:Connect(function(K)
+					if K == "p" then
+						Animations.Visible = false
+					end
+				end)
+end)
+local FirstButton = FirstPage.AddButton("God mode", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "God mode ON!", Duration = 9})
+game.Players.LocalPlayer.Character.BodyEffects["K.O"]:Destroy()
+end)
+local FirstButton = FirstPage.AddButton("PPbat", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "PPbat ON!", Duration = 9})
+	    	local plr = game.Players.LocalPlayer
+				local savedbatpos = plr.Character.HumanoidRootPart.Position
+				plr.Character.HumanoidRootPart.CFrame = CFrame.new(380.932, 44.318, -284.746)
+				wait(.1)
+				fireclickdetector(game.Workspace.Ignored.Shop['[Bat] - $250'].ClickDetector)
+				fireclickdetector(game.Workspace.Ignored.Shop['[Bat] - $250'].ClickDetector)
+				plr.Character.HumanoidRootPart.CFrame = CFrame.new(savedbatpos)
+				plr.Character.HumanoidRootPart.CFrame = CFrame.new(savedbatpos)
+				wait(2.5)
+				pcall(function()
+					for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+						if v.Name == '[Bat]' then
+							v.Parent = game.Players.LocalPlayer.Character
+						end
+					end
+				end)
+				wait(.9)
+				local plr = game.Players.LocalPlayer
+				local pos = plr.Character.HumanoidRootPart.Position
+				if not game.Players.LocalPlayer.Character:FindFirstChild("[Bat]") then
+					plr.Character.HumanoidRootPart.CFrame = targetpos
+					local cd = game:GetService("Workspace").Ignored.Shop["[Bat] - $350"]:FindFirstChild("ClickDetector")
+					wait(.9)
+					fireclickdetector(cd)
+					wait(.4)
+					game.Players.LocalPlayer.Backpack:FindFirstChild("[Bat]").Parent = plr.Character
+					wait(.9)
+					fireclickdetector(cd)
+					wait(.4)
+					game.Players.LocalPlayer.Backpack:FindFirstChild("[Bat]").Parent = plr.Character
+					for i,v in pairs(plr.Character:GetChildren()) do
+						if v.Name == '[Bat]' then
+							v:GetChildren()[3]:Destroy()
+						end
+					end
+					local sd = plr.Character:FindFirstChild("[Bat]")
+					sd.Grip = CFrame.new(-2.4000001, -0.699999988, 0, 0, 1, -0, -1, 0, -0, 0, 0, 1)
+					sd.GripForward = Vector3.new(0, 0, -1)
+					sd.GripPos = Vector3.new(-2.4, -0.7, 0)
+					sd.GripUp = Vector3.new(1, 0, 0)
+					plr.Character.HumanoidRootPart.CFrame = CFrame.new(pos)
+				end
+				local sd = plr.Character:FindFirstChild("[Bat]")
+				sd.Grip = CFrame.new(-2.4000001, -0.699999988, 0, 0, 1, -0, -1, 0, -0, 0, 0, 1)
+				sd.GripForward = Vector3.new(0, -1, -0)
+				sd.GripPos = Vector3.new(1.2111, 1.11114, 1.8111)
+				sd.GripUp = Vector3.new(-500000, 404, 5000000)
+				plr.Character.HumanoidRootPart.CFrame = CFrame.new(pos)
+end)
+local FirstButton = FirstPage.AddButton("Holy cross", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Holycross ON!", Duration = 9})
+	pcall(function()
+					for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+						if v.Name == '[SledgeHammer]' then
+							v.Parent = game.Players.LocalPlayer.Character
+						end
+					end
+				end)
+				wait(.9)
+				local targetpos = CFrame.new(-899.925659, 21.75, -297.100342)
+				local plr = game.Players.LocalPlayer
+				local pos = plr.Character.HumanoidRootPart.Position
+				if not game.Players.LocalPlayer.Character:FindFirstChild("[SledgeHammer]") then
+					plr.Character.HumanoidRootPart.CFrame = targetpos
+					local cd = game:GetService("Workspace").Ignored.Shop["[SledgeHammer] - $350"]:FindFirstChild("ClickDetector")
+					wait(.9)
+					fireclickdetector(cd)
+					wait(.4)
+					game.Players.LocalPlayer.Backpack:FindFirstChild("[SledgeHammer]").Parent = plr.Character
+					wait(.9)
+					fireclickdetector(cd)
+					wait(.4)
+					game.Players.LocalPlayer.Backpack:FindFirstChild("[SledgeHammer]").Parent = plr.Character
+					for i,v in pairs(plr.Character:GetChildren()) do
+						if v.Name == '[SledgeHammer]' then
+							v:GetChildren()[3]:Destroy()
+						end
+					end
+					local sd = plr.Character:FindFirstChild("[SledgeHammer]")
+					sd.Grip = CFrame.new(-2.4000001, -0.699999988, 0, 0, 1, -0, -1, 0, -0, 0, 0, 1)
+					sd.GripForward = Vector3.new(0, 0, -1)
+					sd.GripPos = Vector3.new(-2.4, -0.7, 0)
+					sd.GripUp = Vector3.new(1, 0, 0)
+					plr.Character.HumanoidRootPart.CFrame = CFrame.new(pos)
+				end
+				local sd = plr.Character:FindFirstChild("[SledgeHammer]")
+				sd.Grip = CFrame.new(-2.4000001, -0.699999988, 0, 0, 1, -0, -1, 0, -0, 0, 0, 1)
+				sd.GripForward = Vector3.new(0, 0, -1)
+				sd.GripPos = Vector3.new(-2.4, -0.7, 0)
+				sd.GripUp = Vector3.new(1, 0, 0)
+				plr.Character.HumanoidRootPart.CFrame = CFrame.new(pos)
+end)
+local FirstButton = FirstPage.AddButton("Headless[Client Sided]", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Fake headless ON!", Duration = 9})
+	    game.Players.LocalPlayer.Character.Head.Size = Vector3.new(0,0, 0)
+	game.Players.LocalPlayer.Character.Head.Massless = true
+end)
+local FirstButton = FirstPage.AddButton("Korblox[Client Sided]", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Fake korlbox ON!", Duration = 9})
+	    local ply = game.Players.LocalPlayer
+				local chr = ply.Character
+				chr.RightLowerLeg.MeshId = "902942093"
+				chr.RightLowerLeg.Transparency = "1"
+				chr.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=902942096"
+				chr.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
+				chr.RightFoot.MeshId = "902942089"
+				chr.RightFoot.Transparency = "1"
+end)
+local FirstPage = MainUI.AddPage("Aims")
+local FirstButton = FirstPage.AddButton("Thusky lock [Q]", function()
+local Settings = {
+    rewrittenmain = {
+        Enabled = true,
+        Key = "q",
+        DOT = true,
+        AIRSHOT = true,
+        NOTIF = true,
+        AUTOPRED = false,
+        FOV = math.huge,
+        RESOVLER = false
+    }
+}
+ 
+local SelectedPart = "HumanoidRootPart"
+local Prediction = true
+local PredictionValue = 0.121
+ 
+ 
+    local AnchorCount = 0
+    local MaxAnchor = 50
+ 
+    local CC = game:GetService"Workspace".CurrentCamera
+    local Plr;
+    local enabled = false
+    local accomidationfactor = 0.121
+    local mouse = game.Players.LocalPlayer:GetMouse()
+    local placemarker = Instance.new("Part", game.Workspace)
+ 
+    function makemarker(Parent, Adornee, Color, Size, Size2)
+        local e = Instance.new("BillboardGui", Parent)
+        e.Name = "PP"
+        e.Adornee = Adornee
+        e.Size = UDim2.new(Size, Size2, Size, Size2)
+        e.AlwaysOnTop = Settings.rewrittenmain.DOT
+        local a = Instance.new("Frame", e)
+        if Settings.rewrittenmain.DOT == true then
+        a.Size = UDim2.new(1, 0, 1, 0)
+        else
+        a.Size = UDim2.new(0, 0, 0, 0)
+        end
+        if Settings.rewrittenmain.DOT == true then
+        a.Transparency = 0
+        a.BackgroundTransparency = 0
+        else
+        a.Transparency = 1
+        a.BackgroundTransparency = 1
+        end
+        a.BackgroundColor3 = Color
+        local g = Instance.new("UICorner", a)
+        if Settings.rewrittenmain.DOT == false then
+        g.CornerRadius = UDim.new(0, 0)
+        else
+        g.CornerRadius = UDim.new(1, 1) 
+        end
+        return(e)
+    end
+ 
+ 
+    local data = game.Players:GetPlayers()
+    function noob(player)
+        local character
+        repeat wait() until player.Character
+        local handler = makemarker(guimain, player.Character:WaitForChild(SelectedPart), Color3.fromRGB(107, 184, 255), 0.3, 3)
+        handler.Name = player.Name
+        player.CharacterAdded:connect(function(Char) handler.Adornee = Char:WaitForChild(SelectedPart) end)
+ 
+ 
+        spawn(function()
+            while wait() do
+                if player.Character then
+                end
+            end
+        end)
+    end
+ 
+    for i = 1, #data do
+        if data[i] ~= game.Players.LocalPlayer then
+            noob(data[i])
+        end
+    end
+ 
+    game.Players.PlayerAdded:connect(function(Player)
+        noob(Player)
+    end)
+ 
+    spawn(function()
+        placemarker.Anchored = true
+        placemarker.CanCollide = false
+        if Settings.rewrittenmain.DOT == true then
+        placemarker.Size = Vector3.new(8, 8, 8)
+        else
+        placemarker.Size = Vector3.new(0, 0, 0)
+        end
+        placemarker.Transparency = 0.75
+        if Settings.rewrittenmain.DOT then
+        makemarker(placemarker, placemarker, Color3.fromRGB(232, 186, 200), 0.40, 0)
+        end
+    end)
+ 
+    game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(k)
+        if k == Settings.rewrittenmain.Key and Settings.rewrittenmain.Enabled then
+            if enabled == true then
+                enabled = false
+                if Settings.rewrittenmain.NOTIF == true then
+                    Plr = getClosestPlayerToCursor()
+                game.StarterGui:SetCore("SendNotification", {
+                    Title = "";
+                    Text = "Unlocked :)",
+                    Duration = 5
+                })
+            end
+            else
+                Plr = getClosestPlayerToCursor()
+                enabled = true
+                if Settings.rewrittenmain.NOTIF == true then
+ 
+                    game.StarterGui:SetCore("SendNotification", {
+                        Title = "";
+                        Text = "Target: "..tostring(Plr.Character.Humanoid.DisplayName),
+                        Duration = 5
+                    })
+ 
+                end
+            end
+        end
+    end)
+ 
+ 
+ 
+    function getClosestPlayerToCursor()
+        local closestPlayer
+        local shortestDistance = Settings.rewrittenmain.FOV
+ 
+        for i, v in pairs(game.Players:GetPlayers()) do
+            if v ~= game.Players.LocalPlayer and v.Character and v.Character:FindFirstChild("Humanoid") and v.Character.Humanoid.Health ~= 0 and v.Character:FindFirstChild("HumanoidRootPart") then
+                local pos = CC:WorldToViewportPoint(v.Character.PrimaryPart.Position)
+                local magnitude = (Vector2.new(pos.X, pos.Y) - Vector2.new(mouse.X, mouse.Y)).magnitude
+                if magnitude < shortestDistance then
+                    closestPlayer = v
+                    shortestDistance = magnitude
+                end
+            end
+        end
+        return closestPlayer
+    end
+ 
+    local pingvalue = nil;
+    local split = nil;
+    local ping = nil;
+ 
+    game:GetService"RunService".Stepped:connect(function()
+        if enabled and Plr.Character ~= nil and Plr.Character:FindFirstChild("HumanoidRootPart") then
+            placemarker.CFrame = CFrame.new(Plr.Character.HumanoidRootPart.Position+(Plr.Character.HumanoidRootPart.Velocity*accomidationfactor))
+        else
+            placemarker.CFrame = CFrame.new(0, 9999, 0)
+        end
+        if Settings.rewrittenmain.AUTOPRED == true then
+             pingvalue = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()
+             split = string.split(pingvalue,'(')
+             ping = tonumber(split[1])
+            if ping < 130 then
+                PredictionValue = 0.151
+            elseif ping < 125 then
+                PredictionValue = 0.149
+            elseif ping < 110 then
+                PredictionValue = 0.146
+            elseif ping < 105 then
+                PredictionValue = 0.138
+            elseif ping < 90 then
+                PredictionValue = 0.136
+            elseif ping < 80 then
+                PredictionValue = 0.134
+            elseif ping < 70 then
+                PredictionValue = 0.131
+            elseif ping < 60 then
+                PredictionValue = 0.1229
+            elseif ping < 50 then
+                PredictionValue = 0.1225
+            elseif ping < 40 then
+                PredictionValue = 0.1256
+            end
+        end
+    end)
+ 
+    local mt = getrawmetatable(game)
+    local old = mt.__namecall
+    setreadonly(mt, false)
+    mt.__namecall = newcclosure(function(...)
+        local args = {...}
+        if enabled and getnamecallmethod() == "FireServer" and args[2] == "UpdateMousePos" and Settings.rewrittenmain.Enabled and Plr.Character ~= nil then
+ 
+            -- args[3] = Plr.Character.HumanoidRootPart.Position+(Plr.Character.HumanoidRootPart.Velocity*accomidationfactor)
+            --[[
+            if Settings.rewrittenmain.AIRSHOT == true then
+                if game.Workspace.Players[Plr.Name].Humanoid:GetState() == Enum.HumanoidStateType.Freefall then -- Plr.Character:WaitForChild("Humanoid"):GetState() == Enum.HumanoidStateType.Freefall
+ 
+                    --// Airshot
+                    args[3] = Plr.Character.LeftFoot.Position+(Plr.Character.LeftFoot.Velocity*PredictionValue)
+ 
+                else
+                    args[3] = Plr.Character.HumanoidRootPart.Position+(Plr.Character.HumanoidRootPart.Velocity*PredictionValue)
+ 
+                end
+            else
+                    args[3] = Plr.Character.HumanoidRootPart.Position+(Plr.Character.HumanoidRootPart.Velocity*PredictionValue)
+            end
+            ]]
+            if Prediction == true then
+ 
+            args[3] = Plr.Character[SelectedPart].Position+(Plr.Character[SelectedPart].Velocity*PredictionValue)
+ 
+            else
+ 
+            args[3] = Plr.Character[SelectedPart].Position
+ 
+            end
+ 
+            return old(unpack(args))
+        end
+        return old(...)
+    end)
+ 
+    game:GetService("RunService").RenderStepped:Connect(function()
+        if Settings.rewrittenmain.RESOVLER == true and Plr.Character ~= nil and enabled and Settings.rewrittenmain.Enabled then
+        if Settings.rewrittenmain.AIRSHOT == true and enabled and Plr.Character ~= nil then
+ 
+            if game.Workspace.Players[Plr.Name].Humanoid:GetState() == Enum.HumanoidStateType.Freefall then -- Plr.Character:WaitForChild("Humanoid"):GetState() == Enum.HumanoidStateType.Freefall
+ 
+                --// Airshot
+ 
+                --// Anchor Check
+ 
+                if Plr.Character ~= nil and Plr.Character.HumanoidRootPart.Anchored == true then
+                    AnchorCount = AnchorCount + 1
+                    if AnchorCount >= MaxAnchor then
+                        Prediction = false
+                        wait(2)
+                        AnchorCount = 0;
+                    end
+                else
+                    Prediction = true
+                    AnchorCount = 0;
+                end
+ 
+                SelectedPart = "LeftFoot"
+ 
+            else
+                --// Anchor Check
+ 
+                if Plr.Character ~= nil and Plr.Character.HumanoidRootPart.Anchored == true then
+                    AnchorCount = AnchorCount + 1
+                    if AnchorCount >= MaxAnchor then
+                        Prediction = false
+                        wait(2)
+                        AnchorCount = 0;
+                    end
+                else
+                    Prediction = true
+                    AnchorCount = 0;
+                end
+ 
+                SelectedPart = "HumanoidRootPart"
+ 
+            end
+            else
+ 
+                --// Anchor Check
+ 
+                if Plr.Character ~= nil and Plr.Character.HumanoidRootPart.Anchored == true then
+                    AnchorCount = AnchorCount + 1
+                    if AnchorCount >= MaxAnchor then
+                        Prediction = false
+                        wait(2)
+                        AnchorCount = 0;
+                    end
+                else
+                    Prediction = true
+                    AnchorCount = 0;
+                end
+ 
+                SelectedPart = "HumanoidRootPart"
+            end
+ 
+        else
+                SelectedPart = "HumanoidRootPart"
+        end
+    end)
+
+end)
+local FirstButton = FirstPage.AddButton("Aimlock ThirdPerson [E]", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Started flying", Duration = 9})
+	 getgenv().AimPart = "Head" -- For R15 Games: {UpperTorso, LowerTorso, HumanoidRootPart, Head} | For R6 Games: {Head, Torso, HumanoidRootPart}
+				getgenv().AimlockToggleKey = "E" -- Toggles Aimbot On/Off 
+				getgenv().AimRadius = 25 -- How far away from someones character you want to lock on at
+				getgenv().ThirdPerson = true -- Locking onto someone in your Third Person POV
+				getgenv().FirstPerson = false -- Locking onto someone in your First Person POV
+				getgenv().TeamCheck = false -- Check if Target is on your Team (True means it wont lock onto your teamates, false is vice versa) (Set it to false if there are no teams)
+				getgenv().PredictMovement = true -- Predicts if fthey are moving in fast velocity (like jumping) so the aimbot will go a bit faster to match their speed 
+				getgenv().PredictionVelocity = 3 -- The speed of the PredictMovement feature 
+
+				getgenv().CiazwareUniversalAimbotLoadingTime = tick()
+				if CiazwareUniversalAimbotLoaded == true then
+					return 
+				end
+
+				local Players, Uis, RService, SGui = game:GetService"Players", game:GetService"UserInputService", game:GetService"RunService", game:GetService"StarterGui";
+				local Client, Mouse, Camera, CF, RNew, Vec3, Vec2 = Players.LocalPlayer, Players.LocalPlayer:GetMouse(), workspace.CurrentCamera, CFrame.new, Ray.new, Vector3.new, Vector2.new;
+				local Aimlock, MousePressed, CanNotify = true, false, false;
+				local AimlockTarget;
+				getgenv().CiazwareUniversalAimbotLoaded = true
+
+
+				getgenv().WorldToViewportPoint = function(P)
+					return Camera:WorldToViewportPoint(P)
+				end
+
+				getgenv().WorldToScreenPoint = function(P)
+					return Camera.WorldToScreenPoint(Camera, P)
+				end
+
+				getgenv().GetObscuringObjects = function(T)
+					if T and T:FindFirstChild(getgenv().AimPart) and Client and Client.Character:FindFirstChild("Head") then 
+						local RayPos = workspace:FindPartOnRay(RNew(
+							T[getgenv().AimPart].Position, Client.Character.Head.Position)
+						)
+						if RayPos then return RayPos:IsDescendantOf(T) end
+					end
+				end
+
+				getgenv().GetNearestTarget = function()
+					-- Credits to whoever made this, i didnt make it, and my own mouse2plr function kinda sucks
+					local players = {}
+					local PLAYER_HOLD  = {}
+					local DISTANCES = {}
+					for i, v in pairs(Players:GetPlayers()) do
+						if v ~= Client then
+							table.insert(players, v)
+						end
+					end
+					for i, v in pairs(players) do
+						if v.Character ~= nil then
+							local AIM = v.Character:FindFirstChild("Head")
+							if getgenv().TeamCheck == true and v.Team ~= Client.Team then
+								local DISTANCE = (v.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p).magnitude
+								local RAY = Ray.new(game.Workspace.CurrentCamera.CFrame.p, (Mouse.Hit.p - game.Workspace.CurrentCamera.CFrame.p).unit * DISTANCE)
+								local HIT,POS = game.Workspace:FindPartOnRay(RAY, game.Workspace)
+								local DIFF = math.floor((POS - AIM.Position).magnitude)
+								PLAYER_HOLD[v.Name .. i] = {}
+								PLAYER_HOLD[v.Name .. i].dist= DISTANCE
+								PLAYER_HOLD[v.Name .. i].plr = v
+								PLAYER_HOLD[v.Name .. i].diff = DIFF
+								table.insert(DISTANCES, DIFF)
+							elseif getgenv().TeamCheck == false and v.Team == Client.Team then 
+								local DISTANCE = (v.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p).magnitude
+								local RAY = Ray.new(game.Workspace.CurrentCamera.CFrame.p, (Mouse.Hit.p - game.Workspace.CurrentCamera.CFrame.p).unit * DISTANCE)
+								local HIT,POS = game.Workspace:FindPartOnRay(RAY, game.Workspace)
+								local DIFF = math.floor((POS - AIM.Position).magnitude)
+								PLAYER_HOLD[v.Name .. i] = {}
+								PLAYER_HOLD[v.Name .. i].dist= DISTANCE
+								PLAYER_HOLD[v.Name .. i].plr = v
+								PLAYER_HOLD[v.Name .. i].diff = DIFF
+								table.insert(DISTANCES, DIFF)
+							end
+						end
+					end
+
+					if unpack(DISTANCES) == nil then
+						return nil
+					end
+
+					local L_DISTANCE = math.floor(math.min(unpack(DISTANCES)))
+					if L_DISTANCE > getgenv().AimRadius then
+						return nil
+					end
+
+					for i, v in pairs(PLAYER_HOLD) do
+						if v.diff == L_DISTANCE then
+							return v.plr
+						end
+					end
+					return nil
+				end
+				Uis.InputBegan:Connect(function(Key)
+					if not (Uis:GetFocusedTextBox()) then 
+						if Key.UserInputType == Enum.UserInputType.MouseButton2 then 
+							pcall(function()
+								if MousePressed ~= true then MousePressed = true end 
+								local Target;Target = GetNearestTarget()
+								if Target ~= nil then 
+									AimlockTarget = Target
+								end
+							end)
+						end
+						if Key.KeyCode == Enum.KeyCode[AimlockToggleKey] then 
+							Aimlock = not Aimlock
+						end
+					end
+				end)
+				Uis.InputEnded:Connect(function(Key)
+					if not (Uis:GetFocusedTextBox()) then 
+						if Key.UserInputType == Enum.UserInputType.MouseButton2 then 
+							if AimlockTarget ~= nil then AimlockTarget = nil end
+							if MousePressed ~= false then 
+								MousePressed = false 
+							end
+						end
+					end
+				end)
+
+				RService.RenderStepped:Connect(function()
+					if getgenv().FirstPerson == true and getgenv().ThirdPerson == false then 
+						if (Camera.Focus.p - Camera.CoordinateFrame.p).Magnitude <= 1 then 
+							CanNotify = true 
+						else 
+							CanNotify = false 
+						end
+					elseif getgenv().ThirdPerson == true and getgenv().FirstPerson == false then 
+						if (Camera.Focus.p - Camera.CoordinateFrame.p).Magnitude > 1 then 
+							CanNotify = true 
+						else 
+							CanNotify = false 
+						end
+					end
+					if Aimlock == true and MousePressed == true then 
+						if AimlockTarget and AimlockTarget.Character and AimlockTarget.Character:FindFirstChild(getgenv().AimPart) then 
+							if getgenv().FirstPerson == true then
+								if CanNotify == true then
+									if getgenv().PredictMovement == true then 
+										Camera.CFrame = CF(Camera.CFrame.p, AimlockTarget.Character[getgenv().AimPart].Position + AimlockTarget.Character[getgenv().AimPart].Velocity/PredictionVelocity)
+									elseif getgenv().PredictMovement == false then 
+										Camera.CFrame = CF(Camera.CFrame.p, AimlockTarget.Character[getgenv().AimPart].Position)
+									end
+								end
+							elseif getgenv().ThirdPerson == true then 
+								if CanNotify == true then
+									if getgenv().PredictMovement == true then 
+										Camera.CFrame = CF(Camera.CFrame.p, AimlockTarget.Character[getgenv().AimPart].Position + AimlockTarget.Character[getgenv().AimPart].Velocity/PredictionVelocity)
+									elseif getgenv().PredictMovement == false then 
+										Camera.CFrame = CF(Camera.CFrame.p, AimlockTarget.Character[getgenv().AimPart].Position)
+									end
+								end 
+							end
+						end
+					end
+				end)
+end)
+local FirstPage = MainUI.AddPage("AutoBuy")
+local FirstButton = FirstPage.AddButton("ShotGun", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Buying ShotGun", Duration = 9})
+	_G.savedhumanoidpos = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+				pcall(function()
+					for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+						if v.Name == '[Shotgun] - $1250' then
+							v.Parent = game.Players.LocalPlayer.Character
+						end
+					end
+				end)
+				wait(.9)
+				local targetpos = CFrame.new(-804.820984, -39.6492004, -940.633728)
+				local plr = game.Players.LocalPlayer
+				local pos = plr.Character.HumanoidRootPart.Position
+				if not game.Players.LocalPlayer.Character:FindFirstChild("[Shotgun] - $1250") then
+					plr.Character.HumanoidRootPart.CFrame = targetpos
+					local cd = game:GetService("Workspace").Ignored.Shop["[Shotgun] - $1250"]:FindFirstChild("ClickDetector")
+					wait(.9)
+					fireclickdetector(cd)
+					wait(.9)
+					fireclickdetector(cd)
+					wait(.4)
+				end
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(_G.savedhumanoidpos)
+end)
+local FirstButton = FirstPage.AddButton("ShotGun Ammo", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Buying!", Duration = 9})
+   _G.savedhumanoidpos = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+				pcall(function()
+					for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+						if v.Name == '[20 [Shotgun Ammo] - $60]' then
+							v.Parent = game.Players.LocalPlayer.Character
+						end
+					end
+				end)
+				wait(.9)
+				local targetpos = CFrame.new(-800.960022, -42.5478363, -931.500061, 5.96046448e-08, 0.000122077763, 1, -0.000610388757, 0.999999821, -0.000122077705, -0.999999762, -0.000610388757, 1.1920929e-07)
+				local plr = game.Players.LocalPlayer
+				local pos = plr.Character.HumanoidRootPart.Position
+				if not game.Players.LocalPlayer.Character:FindFirstChild("[20 [Shotgun Ammo] - $60]") then
+					plr.Character.HumanoidRootPart.CFrame = targetpos
+					local cd = game:GetService("Workspace").Ignored.Shop["20 [Shotgun Ammo] - $60"]:FindFirstChild("ClickDetector")
+					wait(.9)
+					fireclickdetector(cd)
+					wait(.9)
+					fireclickdetector(cd)
+					wait(.4)
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(_G.savedhumanoidpos)
+				end
+end)
+local FirstButton = FirstPage.AddButton("ShotGun Ammo", function()
+	game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Buying!", Duration = 9})
+	   _G.savedhumanoidpos = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+				pcall(function()
+					for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+						if v.Name == '[20 [Shotgun Ammo] - $60]' then
+							v.Parent = game.Players.LocalPlayer.Character
+						end
+					end
+				end)
+				wait(.9)
+				local targetpos = CFrame.new(-800.960022, -42.5478363, -931.500061, 5.96046448e-08, 0.000122077763, 1, -0.000610388757, 0.999999821, -0.000122077705, -0.999999762, -0.000610388757, 1.1920929e-07)
+				local plr = game.Players.LocalPlayer
+				local pos = plr.Character.HumanoidRootPart.Position
+				if not game.Players.LocalPlayer.Character:FindFirstChild("[20 [Shotgun Ammo] - $60]") then
+					plr.Character.HumanoidRootPart.CFrame = targetpos
+					local cd = game:GetService("Workspace").Ignored.Shop["20 [Shotgun Ammo] - $60"]:FindFirstChild("ClickDetector")
+					wait(.9)
+					fireclickdetector(cd)
+					wait(.9)
+					fireclickdetector(cd)
+					wait(.4)
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(_G.savedhumanoidpos)
+				end
+end)
+local FirstButton = FirstPage.AddButton("ShotGun Ammo", function()
+game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Buying!", Duration = 9})
+
+end)
+local FirstButton = FirstPage.AddButton("ShotGun Ammo", function()
+game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Buying!", Duration = 9})
+
+end)
+local FirstButton = FirstPage.AddButton("ShotGun Ammo", function()
+game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Buying!", Duration = 9})
+
+end)
+local FirstButton = FirstPage.AddButton("ShotGun Ammo", function()
+game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Buying!", Duration = 9})
+
+end)
+local FirstButton = FirstPage.AddButton("ShotGun Ammo", function()
+game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Buying!", Duration = 9})
+
+end)
+local FirstButton = FirstPage.AddButton("ShotGun Ammo", function()
+game.StarterGui:SetCore("SendNotification", {Title = "Poisonous GUI", Text = "Buying!", Duration = 9})
+
+end)
